@@ -1,0 +1,22 @@
+# Installers belong in a future approved GitHub Release, never in this tree.
+*.exe
+*.msi
+*.msix
+*.msixbundle
+*.appx
+*.appxbundle
+*.zip
+*.7z
+*.tar
+*.gz
+*.dmg
+*.deb
+*.rpm
+
+# Local configuration and generated files.
+.env*
+*.key
+*.pem
+node_modules/
+.DS_Store
+Thumbs.db

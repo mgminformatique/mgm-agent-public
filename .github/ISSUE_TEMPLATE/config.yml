@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: "Découvrir MGM Agent / Discover MGM Agent"
+    url: https://mgminformatique.ca/applications/agent-ia/
+    about: "Présentation de l’application et de ses forfaits."
+  - name: "Ouvrir MGM Agent / Open MGM Agent"
+    url: https://agent-ia.mgminformatique.ca
+    about: "Connexion à votre compte et accès à l’application web."

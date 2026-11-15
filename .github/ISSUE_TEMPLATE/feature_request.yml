@@ -1,0 +1,21 @@
+name: "Proposer une idée / Suggest an idea"
+description: "Expliquez ce qui rendrait MGM Agent Admin plus utile pour vous."
+title: "[Idée] "
+body:
+  - type: markdown
+    attributes:
+      value: "Vous pouvez écrire en français ou en anglais. Cette discussion est publique : gardez les informations confidentielles hors du ticket."
+  - type: textarea
+    id: goal
+    attributes:
+      label: "Votre besoin / Your goal"
+      description: "Que cherchez-vous à accomplir et qu’est-ce qui vous manque aujourd’hui ?"
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: "Votre proposition / Your suggestion"
+      description: "Décrivez le comportement souhaité et, si utile, un exemple concret."
+    validations:
+      required: true

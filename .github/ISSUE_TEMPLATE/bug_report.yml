@@ -1,0 +1,41 @@
+name: "Signaler un problème / Report a problem"
+description: "Décrivez un problème reproductible dans MGM Agent Admin."
+title: "[Problème] "
+body:
+  - type: markdown
+    attributes:
+      value: "Merci pour votre retour. Ce ticket est public : retirez les données personnelles, clés, mots de passe et documents confidentiels. Vous pouvez répondre en français ou en anglais."
+  - type: input
+    id: version
+    attributes:
+      label: "Version de MGM Agent / App version"
+      description: "Indiquez la version affichée dans l’application, ou « application web »."
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: "Environnement / Environment"
+      description: "Version de Windows et, pour le site, nom du navigateur."
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: "Étapes pour reproduire / Steps to reproduce"
+      placeholder: "1. Ouvrir…\n2. Choisir…\n3. Observer…"
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: "Résultat attendu / Expected result"
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: "Résultat observé / Actual result"
+      description: "Ajoutez le message d’erreur ou une capture uniquement après en avoir retiré les informations privées."
+    validations:
+      required: true
