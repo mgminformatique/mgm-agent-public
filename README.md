@@ -31,6 +31,9 @@
 
 **New in [1.4.3](RELEASE-1.4.3.md):** R4 task continuity and deliverable tracking, local plugins in MGM Work, the five original OpenRouter choices and the official Stripe connection flow.
 
+**Give MGM a real task:** [turn notes into a guide, create project files, then add a requirement →](TRY-MGM.md)
+Each walkthrough includes a complete prompt and a result you can check.
+
 <p align="center">
   <a href="#what-you-can-do">Features</a> ·
   <a href="#choose-your-model">Models</a> ·
@@ -235,6 +238,9 @@ identify what needs checking and propose a plan before changing anything.
 ```
 
 **[Explore four starting examples →](EXAMPLES.md#english)**
+
+Want a complete example with sample notes and final checks?
+**[Try the three guided workflows →](TRY-MGM.md)**
 
 > **Download MGM Agent Admin & MGM Work 1.4.3 for Windows x64.**
 > The [release](https://github.com/mgminformatique/mgm-agent-public/releases/tag/v1.4.3) includes the installer, its detached update signature and SHA-256 checksums.

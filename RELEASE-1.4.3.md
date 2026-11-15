@@ -14,6 +14,8 @@ The installer retains the resource checks introduced in 1.4.2. Finish active wor
 
 Validation: 837 application tests and 18 funding tests passed, with three optional tests skipped. The Linux build, production identity and HTTP/assets were checked separately. Model responses in the automated scenarios are simulated. A live model acceptance test and visual verification of this release have not been completed.
 
+Follow-up on November 15: 85 focused regression tests passed against the release snapshot, covering recovery, approvals, deliverables and local plugins. Two additional tests exercised public network connections through the runtime: documentation MCP and source/skill reads. These checks used no paid model and made no production database writes. Production identity and ten HTTP access checks also passed. Live model and native visual acceptance remain outstanding.
+
 The release includes the Windows installer, its detached MGM update signature and `SHA256SUMS`. The installer does not have a Windows Authenticode signature. This public repository contains documentation; the application source remains private.
 
 ## Français
@@ -31,5 +33,7 @@ La version 1.4.3 réunit les correctifs R4 de continuité des tâches, le sélec
 L'installateur conserve le contrôle des fichiers utilisés introduit dans la 1.4.2. Terminez les tâches en cours et fermez Agent Admin et MGM Work avant la mise à jour. Aucun agent n'est fermé de force.
 
 Vérifications : 837 tests applicatifs et 18 tests de financement réussis ; trois tests facultatifs ignorés. Compilation Linux, identité de production, HTTP et fichiers servis vérifiés séparément. Les scénarios automatisés utilisent des réponses de modèles simulées. L'essai avec un vrai modèle et la vérification visuelle de cette version restent à faire.
+
+Suivi du 15 novembre : 85 tests ciblés réussis sur la source figée de la release, couvrant reprise, approbations, livrables et plugins locaux. Deux tests supplémentaires ont exercé les connexions réseau publiques du runtime : documentation MCP et lecture de sources/compétences. Aucun modèle payant appelé ni écriture dans la base de production. L'identité déployée et dix contrôles HTTP d'accès passent également. La recette avec modèle réel et le contrôle visuel natif restent à effectuer.
 
 La release contient l'installateur, sa signature de mise à jour MGM et `SHA256SUMS`. L'installateur n'a pas de signature Windows Authenticode. Ce dépôt public contient la documentation ; le code applicatif reste privé.

@@ -30,6 +30,9 @@
 
 **Nouveautés de la [1.4.3](RELEASE-1.4.3.md#français) :** continuité des tâches R4, suivi des livrables, plugins locaux dans MGM Work, cinq modèles OpenRouter d'origine et connexion officielle Stripe.
 
+**Confiez une vraie tâche à MGM :** [transformer des notes en guide, créer des fichiers, puis ajouter une consigne →](TRY-MGM.md#français)
+Chaque parcours contient un exemple complet et un résultat à vérifier.
+
 ---
 
 ## L’IA, dans votre façon de travailler
