@@ -11,6 +11,8 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/mgminformatique/mgm-agent-public/releases/download/v1.4.2/Agent-Admin-1.4.2-x64.exe"><strong>Download for Windows ↗</strong></a>
+  &nbsp; · &nbsp;
   <a href="https://agent-ia.mgminformatique.ca"><strong>Try the web app ↗</strong></a>
   &nbsp; · &nbsp;
   <a href="https://mgminformatique.ca/en/applications/agent-ia/">Features & plans</a>
@@ -25,7 +27,7 @@
   <a href="https://github.com/mgminformatique/mgm-agent-public/discussions"><img src="assets/button-discuss.svg" alt="Discuss — join the conversation" width="144" height="40"></a>
 </p>
 
-<p align="center"><sub>Web app available · Windows desktop experience · Public installer coming later</sub></p>
+<p align="center"><sub>Windows x64 installer available · Version 1.4.2 · Web app available</sub></p>
 
 <p align="center">
   <a href="#what-you-can-do">Features</a> ·
@@ -236,11 +238,11 @@ identify what needs checking and propose a plan before changing anything.
 
 **[Explore four starting examples →](EXAMPLES.md#english)**
 
-> **The Windows installer will come to this repository later.**
-> No executable or installation package is published here yet.
-> Future versions will appear under [Releases](https://github.com/mgminformatique/mgm-agent-public/releases), with release notes and file verification information.
+> **Download MGM Agent Admin & MGM Work 1.4.2 for Windows x64.**
+> The [release](https://github.com/mgminformatique/mgm-agent-public/releases/tag/v1.4.2) includes the installer, its detached update signature and SHA-256 checksums.
+> Read the [release notes](RELEASE-1.4.2.md) for the installation fix and verification details.
 
-[Prepare for your Windows installation →](INSTALLATION.md#english)
+[Install on Windows →](INSTALLATION.md#english)
 
 ## Help MGM grow
 
@@ -276,9 +278,9 @@ documents from your examples.
 
 ### Can I already use MGM Agent?
 
-Yes, [the web app](https://agent-ia.mgminformatique.ca) is available. Features
-depend on your account and plan. The Windows installer is not published in
-this repository yet.
+Yes. Use [the web app](https://agent-ia.mgminformatique.ca) or download the
+[Windows x64 installer](https://github.com/mgminformatique/mgm-agent-public/releases/tag/v1.4.2).
+Features depend on your account and plan.
 
 ### How are ShellAmp and MGM Work related?
 
@@ -296,7 +298,7 @@ keep their own billing and requirements.
 MGM Agent Admin is proprietary. This public repository welcomes contributions
 to its documentation, translations and usage examples. See [the notice](NOTICE.md).
 
-### How do I follow the Windows release?
+### How do I follow future Windows releases?
 
 Choose **Watch → Custom → Releases** on GitHub. A star bookmarks the project;
 watching releases subscribes you to their publication.

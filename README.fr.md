@@ -10,6 +10,8 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/mgminformatique/mgm-agent-public/releases/download/v1.4.2/Agent-Admin-1.4.2-x64.exe"><strong>Télécharger pour Windows ↗</strong></a>
+  &nbsp; · &nbsp;
   <a href="https://agent-ia.mgminformatique.ca"><strong>Essayer l’application web ↗</strong></a>
   &nbsp; · &nbsp;
   <a href="https://mgminformatique.ca/applications/agent-ia/">Découvrir les fonctionnalités</a>
@@ -24,7 +26,7 @@
   <a href="https://github.com/mgminformatique/mgm-agent-public/discussions"><img src="assets/button-discuss.svg" alt="Discuss — rejoindre les échanges" width="144" height="40"></a>
 </p>
 
-<p align="center"><sub>Application web accessible · Windows 64 bits · Installateur public à venir</sub></p>
+<p align="center"><sub>Installateur Windows 64 bits disponible · Version 1.4.2 · Application web accessible</sub></p>
 
 ---
 
@@ -187,9 +189,9 @@ repère les points à vérifier et propose un plan avant toute modification.
 La création du compte ne déclenche aucun paiement. L’accès aux fonctionnalités
 dépend du forfait choisi.
 
-> **L’installateur Windows arrive dans ce dépôt plus tard.**
-> Aucun EXE ni paquet d’installation n’est publié ici pour le moment.
-> Les futures versions seront annoncées dans [Releases](https://github.com/mgminformatique/mgm-agent-public/releases), avec leurs notes et les informations de vérification du fichier.
+> **Téléchargez MGM Agent Admin et MGM Work 1.4.2 pour Windows 64 bits.**
+> La [release](https://github.com/mgminformatique/mgm-agent-public/releases/tag/v1.4.2) contient l’installateur, sa signature de mise à jour et les empreintes SHA-256.
+> Consultez les [notes de version](RELEASE-1.4.2.md#français) pour le correctif d’installation et les informations de vérification.
 
 [Préparer votre installation Windows →](INSTALLATION.md)
 
@@ -228,15 +230,16 @@ confidentiels de vos exemples.
 ### Peut-on déjà utiliser MGM Agent ?
 
 Oui, [l’application web](https://agent-ia.mgminformatique.ca) est accessible.
-L’accès aux fonctions de l’agent dépend du compte et de son forfait. Le futur
-installateur Windows de ce dépôt n’est pas encore disponible.
+L’accès aux fonctions de l’agent dépend du compte et de son forfait.
+L’[installateur Windows 64 bits](https://github.com/mgminformatique/mgm-agent-public/releases/tag/v1.4.2)
+est également disponible.
 
 ### Est-ce un projet open source ?
 
 MGM Agent Admin est propriétaire. Ce dépôt est l’espace public de présentation,
 de documentation et de retours. Les contributions à ces contenus sont les bienvenues.
 
-### Comment suivre l’arrivée de l’EXE ?
+### Comment suivre les prochaines versions Windows ?
 
 Dans GitHub, choisissez **Watch → Custom → Releases**. Une étoile permet de
 retrouver le dépôt ; l’abonnement aux releases sert à suivre leurs publications.

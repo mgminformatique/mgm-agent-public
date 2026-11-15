@@ -1,47 +1,114 @@
-# Votre première installation
+# Installer MGM Agent Admin et MGM Work
 
-**L’installateur Windows n’est pas encore publié dans ce dépôt.**
+[English instructions](#english) · [Présentation du projet](README.fr.md)
 
-Vous pouvez déjà découvrir [MGM Agent](https://mgminformatique.ca/applications/agent-ia/)
-et accéder à [l’application web](https://agent-ia.mgminformatique.ca).
+**Version disponible : 1.4.2 · Windows 64 bits**
 
-## À préparer
+[Télécharger l’installateur](https://github.com/mgminformatique/mgm-agent-public/releases/download/v1.4.2/Agent-Admin-1.4.2-x64.exe)
+· [Tous les fichiers de la release](https://github.com/mgminformatique/mgm-agent-public/releases/tag/v1.4.2)
+· [Notes de version](RELEASE-1.4.2.md#français)
+
+## Prérequis
 
 - Un ordinateur Windows 64 bits.
-- Une connexion Internet pour les conversations, le compte et les services en ligne.
+- Une connexion Internet pour le compte, les modèles et les services en ligne.
 - Un compte MGM et un forfait adapté aux fonctionnalités souhaitées.
 
-La création d’un compte ne déclenche aucun paiement. MGM Work est inclus avec
-le forfait Ultra. Les autorisations des actions locales et des services
-connectés se gèrent dans l’application.
+MGM Work, l’espace ShellAmp intégré, est accessible avec Ultra. Les comptes
+et abonnements des services tiers restent distincts. La création d’un compte
+MGM ne déclenche aucun paiement.
 
-## Quand l’installateur sera publié ici
+## Installation
 
-Les étapes d’installation, les notes de version et l’empreinte du fichier
-seront ajoutées avec la première publication dans
-[Releases](https://github.com/mgminformatique/mgm-agent-public/releases).
+1. Téléchargez `Agent-Admin-1.4.2-x64.exe` depuis la release ci-dessus.
+2. Comparez l’empreinte SHA-256 avec celle indiquée ci-dessous.
+3. Pour une mise à jour, terminez les tâches actives puis fermez Agent Admin
+   et MGM Work avant de lancer l’installateur.
+4. Ouvrez le fichier `.exe` et suivez les étapes de l’assistant.
+5. Lancez Agent Admin, connectez votre compte MGM et choisissez votre modèle.
+   Avec Ultra, ouvrez MGM Work depuis Agent Admin pour vos tâches locales.
 
-Pour suivre cette publication, utilisez **Watch → Custom → Releases** en haut
-du dépôt GitHub.
+Si un fichier est encore utilisé, l’installateur 1.4.2 propose **Réessayer** ou
+**Annuler** avant de modifier l’installation. Il ne ferme pas de force les
+agents. Le code `1618` en mode silencieux ou passif indique cette situation.
 
-[← Revenir à la présentation](README.fr.md)
+## Vérifier le téléchargement
+
+Dans PowerShell, adaptez le chemin au dossier de téléchargement :
+
+```powershell
+Get-FileHash -Algorithm SHA256 -LiteralPath "$env:USERPROFILE\Downloads\Agent-Admin-1.4.2-x64.exe"
+```
+
+Empreinte attendue, identique en majuscules ou en minuscules :
+
+```text
+c5ec9f5d7c2e519b1aa498bba03cc330c6bf4a1fc4c6de2e40fb70fa1e5c257b
+```
+
+Taille : **409 395 499 octets**. Les fichiers `SHA256SUMS` et
+`Agent-Admin-1.4.2-x64.exe.sig` accompagnent la release. La signature `.sig`
+sert au mécanisme de mise à jour MGM ; **l’installateur n’a pas de signature
+Windows Authenticode**. Une empreinte différente signifie qu’il ne faut pas
+utiliser ce téléchargement.
+
+Les archives « Source code » ajoutées automatiquement par GitHub contiennent
+la documentation publique de ce dépôt. Pour installer l’application, choisissez
+le fichier `.exe` dans les fichiers de la release.
+
+[Signaler un problème d’installation](https://github.com/mgminformatique/mgm-agent-public/issues/new?template=bug_report.yml)
+· [Utiliser l’application web](https://agent-ia.mgminformatique.ca)
 
 ---
 
 ## English
 
-**The Windows installer has not been published in this repository yet.**
+**Available version: 1.4.2 · Windows x64**
 
-You can already [discover MGM Agent](https://mgminformatique.ca/en/applications/agent-ia/)
-and access [the web app](https://agent-ia.mgminformatique.ca).
+[Download the installer](https://github.com/mgminformatique/mgm-agent-public/releases/download/v1.4.2/Agent-Admin-1.4.2-x64.exe)
+· [All release files](https://github.com/mgminformatique/mgm-agent-public/releases/tag/v1.4.2)
+· [Release notes](RELEASE-1.4.2.md)
 
-Prepare a 64-bit Windows computer, an Internet connection and an MGM account.
-Available features depend on your plan; MGM Work is included with Ultra.
-Creating an account does not initiate a payment.
+You need a 64-bit Windows computer, an Internet connection and an MGM account
+with a plan suitable for the features you want to use. MGM Work, the integrated
+ShellAmp workspace, is included with Ultra. Third-party accounts and
+subscriptions remain separate. Creating an MGM account does not initiate a payment.
 
-Installation steps, release notes and the file checksum will accompany the
-first installer published under
-[Releases](https://github.com/mgminformatique/mgm-agent-public/releases).
-Use **Watch → Custom → Releases** to follow future publications.
+1. Download `Agent-Admin-1.4.2-x64.exe` from the release linked above.
+2. Compare its SHA-256 checksum with the value below.
+3. If updating, finish active tasks and close Agent Admin and MGM Work before
+   starting the installer.
+4. Open the `.exe` file and follow the installation wizard.
+5. Launch Agent Admin, sign in with your MGM account and choose your model.
+   With Ultra, open MGM Work from Agent Admin for local tasks.
 
-[← Back to the overview](README.md)
+If a required file is still in use, version 1.4.2 offers **Retry** or **Cancel**
+before changing the installation. It does not force-close agents. Silent or
+passive installation returns exit code `1618` in this situation.
+
+Check the downloaded file in PowerShell, adjusting the path if necessary:
+
+```powershell
+Get-FileHash -Algorithm SHA256 -LiteralPath "$env:USERPROFILE\Downloads\Agent-Admin-1.4.2-x64.exe"
+```
+
+Expected SHA-256, case-insensitive:
+
+```text
+c5ec9f5d7c2e519b1aa498bba03cc330c6bf4a1fc4c6de2e40fb70fa1e5c257b
+```
+
+File size: **409,395,499 bytes**. The release also includes `SHA256SUMS`
+and `Agent-Admin-1.4.2-x64.exe.sig`. The detached `.sig` file is used by MGM's
+update verification system; **the installer is not Windows
+Authenticode-signed**. Do not use a download whose checksum differs.
+
+GitHub's automatically generated “Source code” archives contain this
+repository's public documentation. Choose the `.exe` release asset to install
+the application.
+
+Use **Watch → Custom → Releases** on GitHub to follow future versions.
+
+[Report an installation problem](https://github.com/mgminformatique/mgm-agent-public/issues/new?template=bug_report.yml)
+· [Use the web app](https://agent-ia.mgminformatique.ca)
+· [Back to the overview](README.md)

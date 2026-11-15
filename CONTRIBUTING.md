@@ -38,7 +38,7 @@ Les captures et exemples doivent vous appartenir ou être partageables. Retirez
 les données personnelles, secrets et informations de clients. Merci de garder
 les échanges respectueux, précis et centrés sur le projet.
 
-**L’EXE viendra plus tard : n’ajoutez pas d’installateur ni de paquet binaire
+**Les installateurs sont distribués par MGM dans Releases : n’ajoutez pas d’installateur ni de paquet binaire
 dans une pull request.**
 
 [← Revenir au projet](README.fr.md)
@@ -65,6 +65,6 @@ To improve this repository:
 This repository contains public materials, not the proprietary application
 source code. You do not need to build the application to contribute.
 Keep examples free of private data and keep conversations respectful and specific.
-**Do not include executables or installation packages; those are planned for later.**
+**Do not add executables or installation packages to pull requests. MGM distributes official binaries through Releases.**
 
 [← Back to the project](README.md)
