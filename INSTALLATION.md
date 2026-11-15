@@ -24,7 +24,7 @@ seront ajoutées avec la première publication dans
 Pour suivre cette publication, utilisez **Watch → Custom → Releases** en haut
 du dépôt GitHub.
 
-[← Revenir à la présentation](README.md)
+[← Revenir à la présentation](README.fr.md)
 
 ---
 
@@ -44,4 +44,4 @@ first installer published under
 [Releases](https://github.com/mgminformatique/mgm-agent-public/releases).
 Use **Watch → Custom → Releases** to follow future publications.
 
-[← Back to the overview](README.en.md)
+[← Back to the overview](README.md)

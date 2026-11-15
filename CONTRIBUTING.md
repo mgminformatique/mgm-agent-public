@@ -30,7 +30,7 @@ pour proposer une amélioration ici.
 ## Quelques idées accessibles
 
 - Clarifier une étape du [guide d’installation](INSTALLATION.md).
-- Améliorer la version anglaise du [README](README.en.md).
+- Améliorer le [README anglais](README.md) ou sa [version française](README.fr.md).
 - Proposer un nouvel [exemple d’utilisation](EXAMPLES.md) avec un objectif précis.
 - Corriger un lien, une faute ou une explication ambiguë.
 
@@ -41,7 +41,7 @@ les échanges respectueux, précis et centrés sur le projet.
 **L’EXE viendra plus tard : n’ajoutez pas d’installateur ni de paquet binaire
 dans une pull request.**
 
-[← Revenir au projet](README.md)
+[← Revenir au projet](README.fr.md)
 
 ---
 
@@ -67,4 +67,4 @@ source code. You do not need to build the application to contribute.
 Keep examples free of private data and keep conversations respectful and specific.
 **Do not include executables or installation packages; those are planned for later.**
 
-[← Back to the project](README.en.md)
+[← Back to the project](README.md)
