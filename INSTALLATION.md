@@ -2,11 +2,11 @@
 
 [English instructions](#english) · [Présentation du projet](README.fr.md)
 
-**Version disponible : 1.4.3 · Windows 64 bits**
+**Version disponible : 1.4.4 · Windows 64 bits**
 
-[Télécharger l’installateur](https://github.com/mgminformatique/mgm-agent-public/releases/download/v1.4.3/Agent-Admin-1.4.3-x64.exe)
-· [Tous les fichiers de la release](https://github.com/mgminformatique/mgm-agent-public/releases/tag/v1.4.3)
-· [Notes de version](RELEASE-1.4.3.md#français)
+[Télécharger l’installateur](https://github.com/mgminformatique/mgm-agent-public/releases/download/v1.4.4/Agent-Admin-1.4.4-x64.exe)
+· [Tous les fichiers de la release](https://github.com/mgminformatique/mgm-agent-public/releases/tag/v1.4.4)
+· [Notes de version](RELEASE-1.4.4.md#français)
 
 ## Prérequis
 
@@ -20,7 +20,7 @@ MGM ne déclenche aucun paiement.
 
 ## Installation
 
-1. Téléchargez `Agent-Admin-1.4.3-x64.exe` depuis la release ci-dessus.
+1. Téléchargez `Agent-Admin-1.4.4-x64.exe` depuis la release ci-dessus.
 2. Comparez l’empreinte SHA-256 avec celle indiquée ci-dessous.
 3. Pour une mise à jour, terminez les tâches actives puis fermez Agent Admin
    et MGM Work avant de lancer l’installateur.
@@ -28,26 +28,28 @@ MGM ne déclenche aucun paiement.
 5. Lancez Agent Admin, connectez votre compte MGM et choisissez votre modèle.
    Avec Ultra, ouvrez MGM Work depuis Agent Admin pour vos tâches locales.
 
-Si un fichier est encore utilisé, l’installateur 1.4.3 propose **Réessayer** ou
+Si un fichier est encore utilisé, l’installateur 1.4.4 propose **Réessayer** ou
 **Annuler** avant de modifier l’installation. Il ne ferme pas de force les
 agents. Le code `1618` en mode silencieux ou passif indique cette situation.
+
+Pour les nouvelles connexions GitHub, Netlify et Supabase, les outils officiels correspondants doivent être installés sur Windows. La page de connexion précise les parcours disponibles ; Google/Gmail nécessitent la configuration OAuth MGM et Docker Hub/GoDaddy ne proposent pas de nouvelle association sans clé.
 
 ## Vérifier le téléchargement
 
 Dans PowerShell, adaptez le chemin au dossier de téléchargement :
 
 ```powershell
-Get-FileHash -Algorithm SHA256 -LiteralPath "$env:USERPROFILE\Downloads\Agent-Admin-1.4.3-x64.exe"
+Get-FileHash -Algorithm SHA256 -LiteralPath "$env:USERPROFILE\Downloads\Agent-Admin-1.4.4-x64.exe"
 ```
 
 Empreinte attendue, identique en majuscules ou en minuscules :
 
 ```text
-4cbc09283f764eb29468c52e593fe7b91d5f64f55f9e038ff3932d6ba10b6f4e
+0a2919c3a3ad5bd659d3cdd5c0b660e9e6f4a269cc81aa48d5e8cae3e690b2cc
 ```
 
-Taille : **409 392 026 octets**. Les fichiers `SHA256SUMS` et
-`Agent-Admin-1.4.3-x64.exe.sig` accompagnent la release. La signature `.sig`
+Taille : **532 473 960 octets**. Les fichiers `SHA256SUMS` et
+`Agent-Admin-1.4.4-x64.exe.sig` accompagnent la release. La signature `.sig`
 sert au mécanisme de mise à jour MGM ; **l’installateur n’a pas de signature
 Windows Authenticode**. Une empreinte différente signifie qu’il ne faut pas
 utiliser ce téléchargement.
@@ -63,18 +65,18 @@ le fichier `.exe` dans les fichiers de la release.
 
 ## English
 
-**Available version: 1.4.3 · Windows x64**
+**Available version: 1.4.4 · Windows x64**
 
-[Download the installer](https://github.com/mgminformatique/mgm-agent-public/releases/download/v1.4.3/Agent-Admin-1.4.3-x64.exe)
-· [All release files](https://github.com/mgminformatique/mgm-agent-public/releases/tag/v1.4.3)
-· [Release notes](RELEASE-1.4.3.md)
+[Download the installer](https://github.com/mgminformatique/mgm-agent-public/releases/download/v1.4.4/Agent-Admin-1.4.4-x64.exe)
+· [All release files](https://github.com/mgminformatique/mgm-agent-public/releases/tag/v1.4.4)
+· [Release notes](RELEASE-1.4.4.md)
 
 You need a 64-bit Windows computer, an Internet connection and an MGM account
 with a plan suitable for the features you want to use. MGM Work, the integrated
 ShellAmp workspace, is included with Ultra. Third-party accounts and
 subscriptions remain separate. Creating an MGM account does not initiate a payment.
 
-1. Download `Agent-Admin-1.4.3-x64.exe` from the release linked above.
+1. Download `Agent-Admin-1.4.4-x64.exe` from the release linked above.
 2. Compare its SHA-256 checksum with the value below.
 3. If updating, finish active tasks and close Agent Admin and MGM Work before
    starting the installer.
@@ -82,24 +84,26 @@ subscriptions remain separate. Creating an MGM account does not initiate a payme
 5. Launch Agent Admin, sign in with your MGM account and choose your model.
    With Ultra, open MGM Work from Agent Admin for local tasks.
 
-If a required file is still in use, version 1.4.3 offers **Retry** or **Cancel**
+If a required file is still in use, version 1.4.4 offers **Retry** or **Cancel**
 before changing the installation. It does not force-close agents. Silent or
 passive installation returns exit code `1618` in this situation.
+
+GitHub, Netlify and Supabase sign-in requires the corresponding official Windows CLI. The connection dialog explains availability; Google/Gmail require MGM OAuth setup, and Docker Hub/GoDaddy have no new keyless association in this release.
 
 Check the downloaded file in PowerShell, adjusting the path if necessary:
 
 ```powershell
-Get-FileHash -Algorithm SHA256 -LiteralPath "$env:USERPROFILE\Downloads\Agent-Admin-1.4.3-x64.exe"
+Get-FileHash -Algorithm SHA256 -LiteralPath "$env:USERPROFILE\Downloads\Agent-Admin-1.4.4-x64.exe"
 ```
 
 Expected SHA-256, case-insensitive:
 
 ```text
-4cbc09283f764eb29468c52e593fe7b91d5f64f55f9e038ff3932d6ba10b6f4e
+0a2919c3a3ad5bd659d3cdd5c0b660e9e6f4a269cc81aa48d5e8cae3e690b2cc
 ```
 
-File size: **409,392,026 bytes**. The release also includes `SHA256SUMS`
-and `Agent-Admin-1.4.3-x64.exe.sig`. The detached `.sig` file is used by MGM's
+File size: **532,473,960 bytes**. The release also includes `SHA256SUMS`
+and `Agent-Admin-1.4.4-x64.exe.sig`. The detached `.sig` file is used by MGM's
 update verification system; **the installer is not Windows
 Authenticode-signed**. Do not use a download whose checksum differs.
 
