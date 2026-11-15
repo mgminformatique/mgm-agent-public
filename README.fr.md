@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/mgminformatique/mgm-agent-public/releases/download/v1.4.2/Agent-Admin-1.4.2-x64.exe"><strong>Télécharger pour Windows ↗</strong></a>
+  <a href="https://github.com/mgminformatique/mgm-agent-public/releases/download/v1.4.3/Agent-Admin-1.4.3-x64.exe"><strong>Télécharger pour Windows ↗</strong></a>
   &nbsp; · &nbsp;
   <a href="https://agent-ia.mgminformatique.ca"><strong>Essayer l’application web ↗</strong></a>
   &nbsp; · &nbsp;
@@ -26,7 +26,9 @@
   <a href="https://github.com/mgminformatique/mgm-agent-public/discussions"><img src="assets/button-discuss.svg" alt="Discuss — rejoindre les échanges" width="144" height="40"></a>
 </p>
 
-<p align="center"><sub>Installateur Windows 64 bits disponible · Version 1.4.2 · Application web accessible</sub></p>
+<p align="center"><sub>Installateur Windows 64 bits disponible · Version 1.4.3 · Application web accessible</sub></p>
+
+**Nouveautés de la [1.4.3](RELEASE-1.4.3.md#français) :** continuité des tâches R4, suivi des livrables, plugins locaux dans MGM Work, cinq modèles OpenRouter d'origine et connexion officielle Stripe.
 
 ---
 
@@ -64,29 +66,31 @@ connexions configurées. Un compte MGM et une connexion Internet sont nécessair
 
 ## Choisir son modèle
 
-Le sélecteur regroupe les modèles par compagnie, avec les icônes du fournisseur
-et du modèle, une recherche et des familles faciles à parcourir. Choisissez
-un mode MGM **Auto, Standard, Pro ou Max**, ou un modèle disponible dans le
-catalogue. L’effort de réflexion est réglable lorsque le modèle le permet.
+Commencez avec **Auto, Standard, Pro ou Max**. Le sélecteur conserve les
+modèles OpenRouter d’origine, classés par compagnie avec leurs icônes :
 
-| Compagnie | Familles représentées dans le catalogue |
+| Compagnie | Modèles OpenRouter proposés |
 | :--- | :--- |
-| **OpenAI** | GPT, dont Astra, Sol et Luna ; familles Codex |
-| **Anthropic** | Claude : Fable, Opus, Sonnet et Haiku |
-| **Google** | Gemini : Argon, Carbon, Hydrogen et Flash |
-| **xAI · DeepSeek · Moonshot AI** | Grok, DeepSeek V et R, Kimi |
-| **Z.ai · Alibaba · MiniMax** | GLM, Qwen, familles MiniMax M |
-| **Meta · Mistral AI** | Llama et familles Mistral |
+| **DeepSeek** | V4.1 Flash · V4 Pro |
+| **Z.ai** | GLM 5.3 Flash · GLM 5.3 |
+| **Moonshot AI** | Kimi K3 |
 
-MGM prend en charge OpenRouter, les connexions directes OpenAI et Anthropic,
-les offres d’inférence Hugging Face compatibles et des serveurs d’inférence
-autorisés par l’administrateur. Les profils nommés permettent de conserver
-plusieurs configurations selon le rôle de l’agent.
+Les choix dépendent du forfait ; GLM 5.3 et Kimi K3 nécessitent Ultra.
+L’inférence **Hugging Face** compatible et vos connexions API personnelles
+restent disponibles. OpenAI, Anthropic et les serveurs compatibles autorisés
+peuvent être utilisés avec votre propre connexion.
 
-Les choix réellement accessibles apparaissent dans l’application et dépendent
-du forfait et des connexions. Images, PDF, réflexion et outils dépendent du
-modèle choisi. Les points et budgets MGM continuent de s’appliquer avec une
-clé API personnelle ; la facturation du fournisseur reste distincte.
+L’effort, les images, les PDF et les outils dépendent du modèle et de sa route.
+Les points et budgets MGM s’appliquent aussi aux connexions personnelles ;
+la facturation du fournisseur reste distincte.
+
+### Garder toute la demande en vue
+
+Agent Admin et MGM Work suivent les livrables demandés, conservent les résultats
+déjà obtenus lors des interruptions et des approbations, et examinent les preuves
+avant de déclarer une mission terminée. L’interface distingue le travail vérifié
+des éléments qui restent à revoir. Le pont MGM Work donne accès aux plugins
+locaux et aux compétences compatibles, selon les autorisations accordées.
 
 ## ShellAmp devient MGM Work dans Agent Admin
 
@@ -189,9 +193,9 @@ repère les points à vérifier et propose un plan avant toute modification.
 La création du compte ne déclenche aucun paiement. L’accès aux fonctionnalités
 dépend du forfait choisi.
 
-> **Téléchargez MGM Agent Admin et MGM Work 1.4.2 pour Windows 64 bits.**
-> La [release](https://github.com/mgminformatique/mgm-agent-public/releases/tag/v1.4.2) contient l’installateur, sa signature de mise à jour et les empreintes SHA-256.
-> Consultez les [notes de version](RELEASE-1.4.2.md#français) pour le correctif d’installation et les informations de vérification.
+> **Téléchargez MGM Agent Admin et MGM Work 1.4.3 pour Windows 64 bits.**
+> La [release](https://github.com/mgminformatique/mgm-agent-public/releases/tag/v1.4.3) contient l’installateur, sa signature de mise à jour et les empreintes SHA-256.
+> Consultez les [notes de version](RELEASE-1.4.3.md#français) pour la reprise des tâches, le sélecteur simplifié et les informations de vérification.
 
 [Préparer votre installation Windows →](INSTALLATION.md)
 
@@ -231,7 +235,7 @@ confidentiels de vos exemples.
 
 Oui, [l’application web](https://agent-ia.mgminformatique.ca) est accessible.
 L’accès aux fonctions de l’agent dépend du compte et de son forfait.
-L’[installateur Windows 64 bits](https://github.com/mgminformatique/mgm-agent-public/releases/tag/v1.4.2)
+L’[installateur Windows 64 bits](https://github.com/mgminformatique/mgm-agent-public/releases/tag/v1.4.3)
 est également disponible.
 
 ### Est-ce un projet open source ?
