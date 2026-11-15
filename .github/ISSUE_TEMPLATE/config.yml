@@ -1,5 +1,8 @@
 blank_issues_enabled: false
 contact_links:
+  - name: "Questions et échanges / Questions and discussions"
+    url: https://github.com/mgminformatique/mgm-agent-public/discussions
+    about: "Partagez vos besoins, vos idées d’usage et vos questions avec la communauté."
   - name: "Découvrir MGM Agent / Discover MGM Agent"
     url: https://mgminformatique.ca/applications/agent-ia/
     about: "Présentation de l’application et de ses forfaits."
