@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/mgminformatique/mgm-agent-public/releases/download/v1.4.6/Agent-Admin-1.4.6-x64.exe"><strong>Download for Windows ↗</strong></a>
+  <a href="https://github.com/mgminformatique/mgm-agent-public/releases/download/v1.4.7/Agent-Admin-1.4.7-x64.exe"><strong>Download for Windows ↗</strong></a>
   &nbsp; · &nbsp;
   <a href="https://agent-ia.mgminformatique.ca"><strong>Try the web app ↗</strong></a>
   &nbsp; · &nbsp;
@@ -27,9 +27,9 @@
   <a href="https://github.com/mgminformatique/mgm-agent-public/discussions"><img src="assets/button-discuss.svg" alt="Discuss — join the conversation" width="144" height="40"></a>
 </p>
 
-<p align="center"><sub>Windows x64 installer available · Version 1.4.6 · Web app available</sub></p>
+<p align="center"><sub>Windows x64 installer available · Version 1.4.7 · Web app available</sub></p>
 
-**New in [1.4.6](RELEASE-1.4.6.md):** the integrated engine continues a conversation in a new tab when its message or context limit is reached. The transcript, project and shared mission budget are retained. Windows sign-in fixes are included.
+**New in [1.4.7](RELEASE-1.4.7.md):** grouped history saves, parallel server preparation, a shorter initial greeting path and background model catalog refresh. Financial admissions, explicit model and effort choices, approvals and automatic conversation continuation remain protected.
 
 **Give MGM a real task:** [turn notes into a guide, create project files, then add a requirement →](TRY-MGM.md)
 Each walkthrough includes a complete prompt and a result you can check.
@@ -202,7 +202,7 @@ Connect your own account and grant the permissions needed for your task.
 Available actions depend on the service, account rights and MGM approvals.
 Being listed in the catalog does not mean an account is already connected.
 
-Windows 1.4.6 can authorize GitHub, Netlify and Supabase through their installed official CLIs. Microsoft 365 and Stripe retain their configured official flows. Google Cloud/Gmail still require MGM OAuth setup; Docker Hub/GoDaddy have no new keyless association in this release. Update both the Windows app and server for the native bridge.
+Windows 1.4.7 can authorize GitHub, Netlify and Supabase through their installed official CLIs. Microsoft 365 and Stripe retain their configured official flows. Google Cloud/Gmail still require MGM OAuth setup; Docker Hub/GoDaddy have no new keyless association in this release. Update both the Windows app and server for the native bridge.
 
 ### Plugins, skills and MCP
 
@@ -244,9 +244,9 @@ identify what needs checking and propose a plan before changing anything.
 Want a complete example with sample notes and final checks?
 **[Try the three guided workflows →](TRY-MGM.md)**
 
-> **Download MGM Agent Admin & MGM Work 1.4.6 for Windows x64.**
-> The [release](https://github.com/mgminformatique/mgm-agent-public/releases/tag/v1.4.6) includes the installer, its detached update signature and SHA-256 checksums.
-> Read the [release notes](RELEASE-1.4.6.md) for official sign-in, supported flows and verification details.
+> **Download MGM Agent Admin & MGM Work 1.4.7 for Windows x64.**
+> The [release](https://github.com/mgminformatique/mgm-agent-public/releases/tag/v1.4.7) includes the installer, its detached update signature and SHA-256 checksums.
+> Read the [release notes](RELEASE-1.4.7.md) for official sign-in, supported flows and verification details.
 
 [Install on Windows →](INSTALLATION.md#english)
 
@@ -285,7 +285,7 @@ documents from your examples.
 ### Can I already use MGM Agent?
 
 Yes. Use [the web app](https://agent-ia.mgminformatique.ca) or download the
-[Windows x64 installer](https://github.com/mgminformatique/mgm-agent-public/releases/tag/v1.4.6).
+[Windows x64 installer](https://github.com/mgminformatique/mgm-agent-public/releases/tag/v1.4.7).
 Features depend on your account and plan.
 
 ### How are ShellAmp and MGM Work related?
