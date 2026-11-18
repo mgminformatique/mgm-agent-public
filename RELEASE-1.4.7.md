@@ -21,3 +21,7 @@ Les admissions payantes, réservations communes et règlements gardent leurs con
 Terminez les missions et les approbations avant l’installation. L’édition publique Windows utilise le service MGM ; une édition personnelle locale possède un moteur et un profil distincts. Les comptes et connexions sont conservés. Les ventes et les recharges automatiques restent inchangées.
 
 L’installateur possède la signature de mise à jour MGM liée à sa version, sans certificat Windows Authenticode. Vérifiez les fichiers avec `SHA256SUMS` et suivez le [guide d’installation](INSTALLATION.md).
+
+## Release validation / Validation de livraison
+
+1,154 application tests passed, including all 18 funding tests using the real commerce fixture; four opt-in tests were skipped. TypeScript, lint, the production build, 18 comparative checks, 35 native tests and 13 packaged Windows PTY checks passed. The version-bound update signature and 1,670 extracted resources were verified. HTTP checks passed before and after deployment; this is not a visual browser acceptance test.
