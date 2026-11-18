@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/mgminformatique/mgm-agent-public/releases/download/v1.4.5/Agent-Admin-1.4.5-x64.exe"><strong>Télécharger pour Windows ↗</strong></a>
+  <a href="https://github.com/mgminformatique/mgm-agent-public/releases/download/v1.4.6/Agent-Admin-1.4.6-x64.exe"><strong>Télécharger pour Windows ↗</strong></a>
   &nbsp; · &nbsp;
   <a href="https://agent-ia.mgminformatique.ca"><strong>Essayer l’application web ↗</strong></a>
   &nbsp; · &nbsp;
@@ -26,9 +26,9 @@
   <a href="https://github.com/mgminformatique/mgm-agent-public/discussions"><img src="assets/button-discuss.svg" alt="Discuss — rejoindre les échanges" width="144" height="40"></a>
 </p>
 
-<p align="center"><sub>Installateur Windows 64 bits disponible · Version 1.4.5 · Application web accessible</sub></p>
+<p align="center"><sub>Installateur Windows 64 bits disponible · Version 1.4.6 · Application web accessible</sub></p>
 
-**Nouveautés de la [1.4.5](RELEASE-1.4.5.md#français) :** connexion Supabase interactive corrigée, ouverture Microsoft et Stripe dès le premier clic, erreurs visibles et possibilité de réessayer.
+**Nouveautés de la [1.4.6](RELEASE-1.4.6.md#français) :** le moteur intégré poursuit automatiquement la mission dans un nouvel onglet quand la limite de conversation est atteinte. L’historique, le projet et le budget commun sont conservés. Les correctifs de connexion Windows sont inclus.
 
 **Confiez une vraie tâche à MGM :** [transformer des notes en guide, créer des fichiers, puis ajouter une consigne →](TRY-MGM.md#français)
 Chaque parcours contient un exemple complet et un résultat à vérifier.
@@ -196,9 +196,9 @@ repère les points à vérifier et propose un plan avant toute modification.
 La création du compte ne déclenche aucun paiement. L’accès aux fonctionnalités
 dépend du forfait choisi.
 
-> **Téléchargez MGM Agent Admin et MGM Work 1.4.5 pour Windows 64 bits.**
-> La [release](https://github.com/mgminformatique/mgm-agent-public/releases/tag/v1.4.5) contient l’installateur, sa signature de mise à jour et les empreintes SHA-256.
-> Consultez les [notes de version](RELEASE-1.4.5.md#français) pour les connexions officielles, les parcours disponibles et les informations de vérification.
+> **Téléchargez MGM Agent Admin et MGM Work 1.4.6 pour Windows 64 bits.**
+> La [release](https://github.com/mgminformatique/mgm-agent-public/releases/tag/v1.4.6) contient l’installateur, sa signature de mise à jour et les empreintes SHA-256.
+> Consultez les [notes de version](RELEASE-1.4.6.md#français) pour les connexions officielles, les parcours disponibles et les informations de vérification.
 
 [Préparer votre installation Windows →](INSTALLATION.md)
 
@@ -238,7 +238,7 @@ confidentiels de vos exemples.
 
 Oui, [l’application web](https://agent-ia.mgminformatique.ca) est accessible.
 L’accès aux fonctions de l’agent dépend du compte et de son forfait.
-L’[installateur Windows 64 bits](https://github.com/mgminformatique/mgm-agent-public/releases/tag/v1.4.5)
+L’[installateur Windows 64 bits](https://github.com/mgminformatique/mgm-agent-public/releases/tag/v1.4.6)
 est également disponible.
 
 ### Est-ce un projet open source ?
